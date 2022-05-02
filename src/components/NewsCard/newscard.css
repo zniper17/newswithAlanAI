@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+button:focus { outline: none; }
+.btn {
+    width: max-content;
+    display: inline-block;
+    color: #4db5ff;;
+    letter-spacing: 0.1em;
+        cursor: pointer;
+    border: none;
+    transition: var(--transition);
+    margin-top: 20px;
+    font-size: medium;
+    font-family: 'DM Sans';
+  }
+  .btn:hover {
+    background: #fff;
+    color: #0b0be9;
+    border-color: transparent;
+  }
+  .btn-primary {
+    background: #4db5ff;
+    color: #1f1f38;
+  }
+  .btn{
+    border: none;
+    outline: none;
+    background: none;
+  }
+.go-back :hover{
+    cursor: pointer;
+}
