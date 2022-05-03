@@ -1,4 +1,4 @@
-// Use this sample to create your own voice commands
+
 intent('What does the app do?','What can I get from here?',
       reply('This is news project.'));
 let savedArticles=[]
